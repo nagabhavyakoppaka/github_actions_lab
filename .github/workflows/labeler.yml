@@ -1,4 +1,4 @@
 Documentation:
   - changed-files:
     - any-glob-to-any-file: 
-      - 'Docs'
+      - 'workflow/Docs'
