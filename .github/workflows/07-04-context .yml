@@ -6,6 +6,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: TEST_ENV_REPO
     steps:
      - name: Display Event Information
-       run: echo "hello world ${{ lacalenvvar }}"
+       run: echo "hello world ${{ env.lacalenvvar }}"
