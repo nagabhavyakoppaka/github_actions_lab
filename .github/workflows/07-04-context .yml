@@ -2,7 +2,7 @@ name: 07-04-context
 
 on: workflow_dispatch
 env:
-    lacalenvvar: ${{ vars.TEST_ENV_REPO.TEST_ENV_REPO }}
+    lacalenvvar: ${{ vars.TEST_ENV_REPO }}
 jobs:
   build:
     runs-on: ubuntu-latest
