@@ -1,4 +1,4 @@
-name: 10-02-functions
+name: 10-01-functions-failure
 #on: push
 on: workflow_dispatch
 jobs: 
