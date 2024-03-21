@@ -1,4 +1,4 @@
-name: 01_02-Simple Workflow
+name: 01-02-Simple Workflow
 on: push
 jobs: 
   my-first-job:
